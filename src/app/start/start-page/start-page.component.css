@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  height: 100vh;
+}
+
+.header {
+  margin: 0.25em 0;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100vh;
+}
+
+.input { 
+  border: none;
+  box-shadow: 0 3px 0 0 black;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.submit {
+  background-color: rgba(0,0,0,0.25);
+  border: none;
+  box-shadow: 0 0 0 3px black;
+  font-size: 1.25em;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: rgba(0,0,0,0.15);
+}
